@@ -1,0 +1,9 @@
+[build]
+  base = "element_transfer"
+  command = "npm run build"
+  publish = "build"  # output folder after build (adjust as needed)
+
+[[redirects]]
+  from = "/main.jsx"
+  to = "/main.js"  # If you need to redirect requests to main.jsx
+  status = 200

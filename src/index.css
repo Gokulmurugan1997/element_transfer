@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 100px;
+}
+
+.container1, .container2 {
+  width: 300px;
+  padding: 10px;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  background-color: #f0f0f0;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.item.selected {
+  background-color: #a0e0a0;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
